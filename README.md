@@ -19,13 +19,13 @@ A program is a command-line-parameters kind. It takes **always** 5 parameters:
 #### Compression
 
 ```bash
-./lz77 -i input.txt -o output.txt -t c -n 10 -k 20
-````
+./lz77 -i input.txt -o output.txt -t c -n 10 -k 10
+```
 
 #### Decompression
 
 ```bash
-./lz77 -i output.txt -o decompressed.txt -t d -n 10 -k 20
+./lz77 -i output.txt -o decompressed.txt -t d -n 10 -k 10
 ```
 
 ## How it works
