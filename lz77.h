@@ -47,7 +47,7 @@ Token *compression_lz77(const std::string &input, int searchBuffer, int lookAhea
         int max_offset = (position - searchBuffer) < 0 ? position : searchBuffer;
         int max_search_length = (position + lookAheadBuffer) > inputLength ? inputLength - position : lookAheadBuffer;
 
-        // Szukanie dopasowania
+        // Searching for best match
         for (int offset = 1; offset <= max_offset; offset++)
         {
             int len = 0;
