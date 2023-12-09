@@ -18,7 +18,6 @@ A program is a command-line-parameters kind. It takes **always** 5 parameters:
 
 #### Compression
 
-````bash
 ```bash
 ./lz77 -i input.txt -o output.txt -t c -n 10 -k 20
 ````
