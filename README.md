@@ -58,6 +58,10 @@ Without forgetting the command-line-parameters:
 ./lz77 -i output.txt -o decompressed.txt -t d -n 10 -k 20
 ```
 
+## Stars
+
+If you like this project, please consider giving it a star. Thanks!
+
 ## Credits
 
 The project is not under any license, but with human kindness, I would like to be credited if you use it in your project. Thank you!
