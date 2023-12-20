@@ -49,6 +49,30 @@ cmake_ninja_workdir = C$:/Users/szymo/Documents/GitHub/lz77-algorithm/cmake-buil
 
 build cmake_object_order_depends_target_lz77: phony || CMakeFiles/lz77.dir
 
+build CMakeFiles/lz77.dir/main.cpp.obj: CXX_COMPILER__lz77_unscanned_Debug C$:/Users/szymo/Documents/GitHub/lz77-algorithm/main.cpp || cmake_object_order_depends_target_lz77
+  DEP_FILE = CMakeFiles\lz77.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lz77.dir
+  OBJECT_FILE_DIR = CMakeFiles\lz77.dir
+  TARGET_COMPILE_PDB = CMakeFiles\lz77.dir\
+  TARGET_PDB = lz77.pdb
+
+build CMakeFiles/lz77.dir/functions.cpp.obj: CXX_COMPILER__lz77_unscanned_Debug C$:/Users/szymo/Documents/GitHub/lz77-algorithm/functions.cpp || cmake_object_order_depends_target_lz77
+  DEP_FILE = CMakeFiles\lz77.dir\functions.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lz77.dir
+  OBJECT_FILE_DIR = CMakeFiles\lz77.dir
+  TARGET_COMPILE_PDB = CMakeFiles\lz77.dir\
+  TARGET_PDB = lz77.pdb
+
+build CMakeFiles/lz77.dir/parameters.cpp.obj: CXX_COMPILER__lz77_unscanned_Debug C$:/Users/szymo/Documents/GitHub/lz77-algorithm/parameters.cpp || cmake_object_order_depends_target_lz77
+  DEP_FILE = CMakeFiles\lz77.dir\parameters.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lz77.dir
+  OBJECT_FILE_DIR = CMakeFiles\lz77.dir
+  TARGET_COMPILE_PDB = CMakeFiles\lz77.dir\
+  TARGET_PDB = lz77.pdb
+
 build CMakeFiles/lz77.dir/lz77.cpp.obj: CXX_COMPILER__lz77_unscanned_Debug C$:/Users/szymo/Documents/GitHub/lz77-algorithm/lz77.cpp || cmake_object_order_depends_target_lz77
   DEP_FILE = CMakeFiles\lz77.dir\lz77.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
@@ -65,7 +89,7 @@ build CMakeFiles/lz77.dir/lz77.cpp.obj: CXX_COMPILER__lz77_unscanned_Debug C$:/U
 #############################################
 # Link the executable lz77.exe
 
-build lz77.exe: CXX_EXECUTABLE_LINKER__lz77_Debug CMakeFiles/lz77.dir/lz77.cpp.obj
+build lz77.exe: CXX_EXECUTABLE_LINKER__lz77_Debug CMakeFiles/lz77.dir/main.cpp.obj CMakeFiles/lz77.dir/functions.cpp.obj CMakeFiles/lz77.dir/parameters.cpp.obj CMakeFiles/lz77.dir/lz77.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lz77.dir
