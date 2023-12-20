@@ -21,13 +21,13 @@ The algorithm works by replacing repeated occurrences of data with references to
 ## How to compile
 
 ```bash
-g++ lz77.cpp main.cpp parameters.cpp functions.cpp -o lz77
+g++ lz77.cpp main.cpp parameters.cpp functions.cpp -o main
 ```
 
-If you compile this as such, you will get a `lz77.exe` executable file. You can run it by typing:
+If you compile this as such, you will get a `main.exe` executable file. You can run it by typing:
 
 ```bash
-./lz77
+./main
 ```
 
 ## Example
@@ -37,14 +37,14 @@ If you compile this as such, you will get a `lz77.exe` executable file. You can 
 ``input.txt as [input file], output.txt as [output file]`` \
 **It can be any file, not just .txt (e.g: jpg, png, bin, cpp, etc.)**
 ```bash
-./lz77 -i input.txt -o output.txt -t c -n 10 -k 10
+./main -i input.txt -o output.txt -t c -n 10 -k 10
 ```
 
 #### Decompression
 
 ``output.txt as [input file], decompressed.txt as [output file]``
 ```bash
-./lz77 -i output.txt -o decompressed.txt -t d -n 10 -k 10
+./main -i output.txt -o decompressed.txt -t d -n 10 -k 10
 ```
 
 ## Stars
